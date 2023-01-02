@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Calculator.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1 class="text-center">Calculator</h1>
+    <div class="container">
+        <div class="calculator dark">
+            
+                <div id="display">
+                    <input class ="input" type="text" placeholder="0"/>
+                </div>
+         
+            <div class="button">
+                <table>
+                    <tr>
+                        <td><button class="btn-operator" value="clear">AC</button></td>
+                        <td><button class="btn-operator" value="backspace"> < </button></td>
+                        <td><button class="btn-operator" value="×">*</button></td>
+                        <td><button class="btn-operator" value="÷">/</button></button></td>
+                    </tr>
+                    <tr>
+                       <td><button class="btn-number" value="7">7</button></td>
+                         <td><button class="btn-number" value="8">8 </button></td>
+                        <td><button class="btn-number" value="9">9</button></td>
+                        <td><button class="btn-operator" value="-">-</button></td>  
+                    </tr>
+                    <tr>
+                      <td><button class="btn-number" value="4">4</button></td>
+                        <td><button class="btn-number" value="5">5</button></td>
+                        <td><button class="btn-number" value="6">6</button></td>
+                        <td><button class="btn-operator" value="+">+</button></td>  
+                    </tr>
+                    <tr>
+                      <td><button class="btn-number" value="1">1</button></td>
+                        <td><button class="btn-number" value="2">2</button></td>
+                        <td><button class="btn-number" value="3">3</button></td>
+                        <td rowspan="2"><button class="btn-equal" value="equal">=</button></td>  
+                    </tr>
+                    <tr>
+                      <td><button class="btn-operator" value="%">%</button></td>
+                        <td><button class="btn-number" value="0">0</button></td>
+                        <td><button class="btn-operator" value=".">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+    </body>
+</html>
